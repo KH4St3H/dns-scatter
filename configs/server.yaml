@@ -1,0 +1,8 @@
+listen: "0.0.0.0:15354"
+upstream: "8.8.8.8:53"
+mappings:
+  - original: "example.org"
+    replacements:
+      - "hello.org"
+      - "hello.net"
+      - "world.com"
